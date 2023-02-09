@@ -26,3 +26,7 @@ restart docker service
 ```
 sudo systemctl restart docker
 ```
+잘 설치되었는지 확인
+```
+docker run --gpus all --rm nvidia/cuda nvidia-smi
+```
